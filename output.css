@@ -1571,6 +1571,10 @@ html {
   justify-content: center;
 }
 
+.overflow-x-hidden {
+  overflow-x: hidden;
+}
+
 .rounded-box {
   border-radius: var(--rounded-box, 1rem);
 }
