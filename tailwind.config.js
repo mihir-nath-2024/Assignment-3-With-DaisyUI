@@ -10,6 +10,8 @@ module.exports = {
         'concept-card-2':'rgb(239, 218, 110)',
         'concept-card-3':'rgb(164, 218, 195)',
         'concept-card-4':'rgb(119, 170, 234)',
+        'portfolio-btn':'rgba(171, 239, 95, 0.2)',
+        'port-card-border':'rgb(233, 233, 233),'
       },
       
     },
