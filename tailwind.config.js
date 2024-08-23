@@ -12,10 +12,12 @@ module.exports = {
         'concept-card-4':'rgb(119, 170, 234)',
         'portfolio-btn':'rgba(171, 239, 95, 0.2)',
         'port-card-border':'rgb(233, 233, 233)',
-        'news-btn-bg':'rgba(171, 239, 95, 0.2)',
+        'news-btn-bg':'rgba(171, 239, 95, 1)',
+        'footer-bg':'rgb(28, 28, 28)',
       },
       backgroundImage: {
         'discuss-bg':'url(./assets/bg.jpg)',
+        'challenge-bg-img':'url(./assets/challenge.png)',
       }
       
     },

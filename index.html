@@ -6,6 +6,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./output.css">
     <title>Rinterio</title>
 </head>
@@ -16,6 +19,12 @@
     
     font-style: normal;
   }
+  .great-vibes-regular {
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
   </style>
 
 <body class="manrope-font overflow-x-hidden">
@@ -23,7 +32,7 @@
     <!-- header section started here -->
 
 
-   <header><div class="navbar bg-base-200 ">
+   <header class="bg-base-200"><div class="navbar bg-base-200 container  lg:w-10/12 mx-auto ">
     <div class="navbar-start">
       
       <a class="btn btn-ghost text-xl font-bold"> <svg width="32.010620" height="32.010742" viewBox="0 0 32.0106 32.0107" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -157,14 +166,36 @@
  </section>
 
 
+ <!-- challenge section started here -->
+ <section>
+  <div
+class="hero min-h-screen bg-challenge-bg-img"
+>
+<div class="hero-overlay bg-opacity-60"></div>
+<div class="hero-content text-neutral-content text-center">
+<div class="max-w-xl">
+  <h1 class="mb-5 text-4xl md:text-5xl lg:text-6xl text-news-btn-bg/80 font-serif font-bold">Building More Than Your <br><span class="great-vibes-regular  text-news-btn-bg ">Dream Home</span> </h1>
+  <p class="mb-5 text-ellipsis">
+    At <span class="bold font-serif text-news-btn-bg">Rinterio</span>, we go beyond building houses—we create the foundation for your dreams. "Building More Than Your <span class="great-vibes-regular text-news-btn-bg">Dream Home</span> " means every detail is crafted with care to reflect your unique style and bring your vision to life. Let us transform your space into a place where memories are made and dreams come true. 
+
+
+  </p>
+  <button class="btn  bg-news-btn-bg"><a>Get Started</a> </button>
+</div>
+</div>
+</div>
+ </section>
+
+
  <!-- about us sction started here -->
  <section class="bg-base-200">
     <div class="hero bg-base-200 min-h-screen">
-        <div class="hero-content flex-col lg:flex-row-reverse ">
+        <div class="hero-content flex-col flex-col-reverse lg:flex-row-reverse ">
           <div class="lg:"><img
-            src="./assets/Rectangle.png" class=" rounded-lg shadow-2xl"/></div>
+            src="./assets/Rectangle.png" class=" rounded-lg lg:max-w-lg shadow-2xl"/></div>
             <!-- section heading -->
-          <div>
+          <div class="relative">
+            <!-- <div class="absolute"><img src="./assets/Vector.png" alt=""></div> -->
             <button class="btn bg-white rounded-full font-bold"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
                 <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
               </svg>
@@ -444,7 +475,7 @@
 
     <!-- discuss section started here -->
 
-    <section class="bg-discuss-bg  w-full h-screen bg-no-repeat bg-cover py-16 lg:py-24">
+    <section class="bg-discuss-bg  w-full h-auto bg-no-repeat bg-cover py-16 lg:py-24">
       <!-- mother div -->
        <div class="flex flex-col items-center justify-center">
         <!-- header div -->
@@ -458,7 +489,7 @@
               </svg>
               <a href="#">Let's Connect.</a></button>
             <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold my-4">Let’s Discuss Next Project</h1>
-            <p>The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.</p>
+            <p class=" my-4 lg:my-6">The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.</p>
           </div>
          </div>
 
@@ -517,6 +548,72 @@
        </div>
 
     </section>
+
+    <!-- footer section started here -->
+
+    <footer class="flex flex-col justify-center items-center bg-footer-bg text-white/80 rounded p-10">
+
+      <div>
+        <div class="flex flex-col items-center justify-center">
+          <a class="btn btn-ghost text-xl lg:text-2xl font-bold"> <svg width="32.010620" height="32.010742" viewBox="0 0 32.0106 32.0107" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <desc>
+                    Created with Pixso.
+            </desc>
+            <defs/>
+            <rect id="arrow-up-right-01" rx="15.499997" width="30.999994" height="31.000031" transform="translate(0.510620 0.500000) rotate(0.019056)" fill="#ABEF5F" fill-opacity="1.000000"/>
+            <path id="Vector" d="M21 11L10 22" stroke="#1C1C1C" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linecap="round"/>
+            <path id="Vector" d="M15 10.13C15 10.13 20.64 9.66 21.49 10.51C22.35 11.37 21.87 17 21.87 17" stroke="#1C1C1C" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round" stroke-linecap="round"/>
+        </svg>
+        Rinterio</a>
+
+    <p class="text-white/50 my-6 ">The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.</p>
+  </div>
+      </div>
+
+      <nav class="grid grid-flow-row lg:grid-flow-col gap-5 lg:gap-32">
+        <a class="link link-hover">Home</a>
+        <a class="link link-hover">Services</a>
+        <a class="link link-hover">Blogs</a>
+        <a class="link link-hover">Portfolio</a>
+        <a class="link link-hover">Contact Us</a>
+      </nav>
+      
+      <aside>
+        <button class="flex items-center btn rounded-full text-sm lg:text-xl font-bold bg-custom-green my-6"><a class="mr-2">Book Consult</a> <svg width="32.010635" height="32.010742" viewBox="0 0 32.0106 32.0107" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <desc>
+                  Created with Pixso.
+          </desc>
+          <defs/>
+          <rect id="arrow-up-right-01" rx="15.499997" width="30.999994" height="31.000031" transform="translate(0.510635 0.500000) rotate(0.019056)" fill="#1C1C1C" fill-opacity="1.000000"/>
+          <path id="Vector" d="M21 11L10 22" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linecap="round"/>
+          <path id="Vector" d="M15 10.13C15 10.13 20.64 9.66 21.49 10.51C22.35 11.37 21.87 17 21.87 17" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round" stroke-linecap="round"/>
+      </svg>
+      </button>
+      </aside>
+    </footer>
+
+
+    <!--portfolio card grid -->
+    <div>
+      <!-- card 1 -->
+      <div class="card lg:card-side bg-base-100 shadow-xl">
+        <figure>
+          <img
+            src="https://img.daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.webp"
+            alt="Album" />
+        </figure>
+        <div class="card-body">
+          <h2 class="card-title">New album is released!</h2>
+          <p>Click the button to listen on Spotiwhy app.</p>
+          <div class="card-actions justify-end">
+            <button class="btn btn-primary">Listen</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    
 
 
   </body>
