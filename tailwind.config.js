@@ -14,6 +14,9 @@ module.exports = {
         'port-card-border':'rgb(233, 233, 233)',
         'news-btn-bg':'rgba(171, 239, 95, 0.2)',
       },
+      backgroundImage: {
+        'discuss-bg':'url(./assets/bg.jpg)',
+      }
       
     },
   },
