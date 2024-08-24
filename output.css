@@ -2425,6 +2425,12 @@ html {
   text-decoration-line: underline;
 }
 
+@media not all and (min-width: 640px) {
+  .max-sm\:text-center {
+    text-align: center;
+  }
+}
+
 @media (min-width: 640px) {
   .sm\:block {
     display: block;
