@@ -190,12 +190,12 @@ class="hero min-h-screen bg-challenge-bg-img"
  <!-- about us sction started here -->
  <section class="bg-base-200">
     <div class="hero bg-base-200 min-h-screen">
-        <div class="hero-content flex-col flex-col-reverse lg:flex-row-reverse ">
+        <div class="hero-content  flex-col-reverse lg:flex-row-reverse ">
           <div class="lg:"><img
             src="./assets/Rectangle.png" class=" rounded-lg lg:max-w-lg shadow-2xl"/></div>
             <!-- section heading -->
-          <div class="relative">
-            <!-- <div class="absolute"><img src="./assets/Vector.png" alt=""></div> -->
+          <div class="relative flex flex-col justify-center items-center lg:justify-start lg:items-start text-center lg:text-left ">
+            <div class="absolute lg:-top-14 lg:-left-12 hidden sm:block"><img src="./assets/Vector.png" alt=""></div>
             <button class="btn bg-white rounded-full font-bold"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
                 <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
               </svg>
@@ -227,9 +227,9 @@ class="hero min-h-screen bg-challenge-bg-img"
 
  <!-- work section started here -->
 
-  <section class="bg-base-200">
+  <section class="bg-base-200 lg:py-24">
     <!-- mother div -->
-     <div class="flex flex-col justify-center items-center w-9/12 mx-auto">
+     <div class="flex flex-col justify-center items-center w-11/12 lg:w-9/12 mx-auto">
         <!-- header div -->
          <div class="flex flex-col justify-center items-center mb-8 ">
             <button class="btn bg-white rounded-full flex"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
@@ -238,7 +238,11 @@ class="hero min-h-screen bg-challenge-bg-img"
             <h1 class="text-4xl lg:text-5xl font-bold my-4">Our Works Process</h1>
             <p>The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.</p>
          </div>
+
+
          <!-- card div -->
+
+
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-4 gap-y-4">
                 <!-- card-1 -->
         <div class="flex flex-col justify-start bg-concept-card-1 rounded-lg  shadow-xl pt-6">
@@ -299,20 +303,80 @@ class="hero min-h-screen bg-challenge-bg-img"
   </section>
 
   <!-- portofolio section started here -->
-   <section class="" >
+   <section class="lg:py-11" >
     <!-- mother div -->
      <div>
         <!-- header div -->
-         <div class="flex justify-center items-center flex-col"><button class="flex btn rounded-full bg-portfolio-btn"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+         <div class="flex justify-center items-center flex-col my:6 lg:my-10 w-11/12 text-center mx-auto lg:w-10/12"><button class="flex btn rounded-full bg-portfolio-btn"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
             <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
           </svg><a href="">Explore our Latest works</a></button>
          <h1 class="lg:text-5xl text-3xl md:text-4xl font-bold my-4">Our Latest Portfolio</h1>
          <p>The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.</p></div>
 
          <!-- card div -->
-          <div class="grid grid-cols-1 lg:grid-cols-4 lg:grid-rows-3">          
-              
-          </div>
+           <!--portfolio card grid -->
+    <div class="grid lg:grid-cols-12 w-11/12 lg:w-10/12 mx-auto lg:gap-x-6 lg:gap-y-6 gap-y-3">
+      <!-- card 1 -->
+      <div class="card lg:card-side bg-base-100  lg:col-span-8 border-2 rounded-2xl border-black/20">
+        <div class="w-full p-4"><img
+          src="./assets/img1.png"
+          alt="Album" class="w-full h-full" /></div>
+        <div class="p-4">
+          <h2 class="card-title">Commercial</h2>
+          <p>The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
+          <a href="" class="flex items-center hover:underline my-2" ><h5 class="mr-2 font-bold">View Details</h5><svg width="32.010620" height="32.010666" viewBox="0 0 32.0106 32.0107" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <desc>
+                Created with Pixso.
+            </desc>
+            <defs/>
+            <rect id="arrow-up-right-01" rx="15.499997" width="30.999994" height="31.000031" transform="translate(0.510620 0.500000) rotate(0.019056)" fill="#ABEF5F" fill-opacity="1.000000"/>
+            <path id="Vector" d="M21 11L10 22" stroke="#212121" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linecap="round"/>
+            <path id="Vector" d="M15 10.13C15 10.13 20.64 9.66 21.49 10.51C22.35 11.37 21.87 17 21.87 17" stroke="#212121" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round" stroke-linecap="round"/>
+          </svg>
+          
+            </a>
+        </div>
+      </div>
+       
+
+      <!-- card 2 -->
+       <div class="lg:col-span-4 border-2 rounded-2xl border-black/20 p-4 "><img src="./assets/img2.png" alt="" class="w-full h-full" ></div>
+
+
+       <!-- card 3 --->
+       <div class="lg:col-span-3 border-2 rounded-2xl border-black/20 p-4" ><img src="./assets/img3.png" alt="" class=" h-full w-full" ></div>
+
+       <!-- card -4 -->
+
+       <div class="card lg:card-side bg-base-100  lg:col-span-6 border-2 rounded-2xl border-black/20">
+       <div class="w-full p-4"> <img
+        src="./assets/img4.png"
+        alt="Album" class="w-full h-full" /></div>
+        <div class="p-4">
+          <h2 class="card-title">Commercial</h2>
+          <p>The barn house captivates with its blend of rustic charm and modern. </p>
+          <a href="" class="flex items-center hover:underline my-2" ><h5 class="mr-2 font-bold">View Details</h5><svg width="32.010620" height="32.010666" viewBox="0 0 32.0106 32.0107" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <desc>
+                Created with Pixso.
+            </desc>
+            <defs/>
+            <rect id="arrow-up-right-01" rx="15.499997" width="30.999994" height="31.000031" transform="translate(0.510620 0.500000) rotate(0.019056)" fill="#ABEF5F" fill-opacity="1.000000"/>
+            <path id="Vector" d="M21 11L10 22" stroke="#212121" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linecap="round"/>
+            <path id="Vector" d="M15 10.13C15 10.13 20.64 9.66 21.49 10.51C22.35 11.37 21.87 17 21.87 17" stroke="#212121" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round" stroke-linecap="round"/>
+          </svg>
+          
+            </a>
+        </div>
+      </div>
+
+      <!-- card-5 -->
+       <div class="lg:col-span-3 border-2 rounded-2xl border-black/20 p-4"><img src="./assets/img5.png" alt="" class="w-full h-full"></div>
+
+       <!-- card -6 -->
+       <div class="lg:col-span-3 border-2 rounded-2xl border-black/20 p-4 lg:hidden"><img src="./assets/img3.png" alt="" class="w-full h-full"></div>
+
+    </div>
+
           <!-- ....... -->
      </div>
    </section>
@@ -479,7 +543,7 @@ class="hero min-h-screen bg-challenge-bg-img"
       <!-- mother div -->
        <div class="flex flex-col items-center justify-center">
         <!-- header div -->
-         <div class="flex flex-col items-center justify-center">
+         <div class="flex flex-col items-center justify-center w-11/12 mx-auto">
 
           <!-- header child-->
           <div class="flex flex-col items-center justify-center" >
@@ -593,25 +657,7 @@ class="hero min-h-screen bg-challenge-bg-img"
     </footer>
 
 
-    <!--portfolio card grid -->
-    <div>
-      <!-- card 1 -->
-      <div class="card lg:card-side bg-base-100 shadow-xl">
-        <figure>
-          <img
-            src="https://img.daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.webp"
-            alt="Album" />
-        </figure>
-        <div class="card-body">
-          <h2 class="card-title">New album is released!</h2>
-          <p>Click the button to listen on Spotiwhy app.</p>
-          <div class="card-actions justify-end">
-            <button class="btn btn-primary">Listen</button>
-          </div>
-        </div>
-      </div>
-    </div>
-
+   
 
     
 
